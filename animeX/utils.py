@@ -23,7 +23,7 @@ def banner():
 
 
 def get_version():
-    __version__ = '0.1.6'
+    __version__ = '0.1.7'
     return __version__
 
 
