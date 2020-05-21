@@ -6,13 +6,13 @@ if __name__ == "__main__":
     print(utils.banner())
     parser = argparse.ArgumentParser(description='anime downloader')
     parser.add_argument('--name', type=str, help='\nWhat anime do you wanna download today:::')
+    parser.add_argument("--version", action="version", version="%(prog)s " + str(utils.get_version()),)
     args = parser.parse_args()
 
     print("\nAll anime are gotten from www.animeout.xyz/")
 
     anime_name = args.name
     search_result = utils.get_search_result(anime_name)
-    print(args.name)
 
     print("\nSearch results for", anime_name)
     for i, j in enumerate(search_result):

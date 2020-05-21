@@ -22,6 +22,11 @@ def banner():
     return banner_ascii
 
 
+def get_version():
+    __version__ = '0.1.5'
+    return __version__
+
+
 def get_search_result(search_item):
     """
         Searches for a given anime

@@ -1,16 +1,16 @@
 import setuptools
-import animeX
+import animeX.utils as utils
 
 packages = [
     'animeX'
 ]
 
-with open("README", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="animeX",  # Replace with your own username
-    version=animeX.__version__,
+    version=utils.get_version(),
     author="Samuel Abada",
     author_email="abadasamuelosp@gmail.com",
     description="A simple, yet versatile package for downloading " \
@@ -24,13 +24,15 @@ setuptools.setup(
         "requests==2.21.0",
         "beautifulsoup4==4.9.0",
     ],
-    scripts=['animeX/animeX.py'],
     classifiers=[
         "Environment :: Console",
         "Intended Audience :: Developers",
-        "Programming Language :: Python",
         "Natural Language :: English",
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Topic :: Software Development :: Libraries :: Python Modules",
