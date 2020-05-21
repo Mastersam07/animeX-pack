@@ -10,8 +10,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="animeX",  # Replace with your own username
-    # version=animeX.__version__,
-    version="0.1.0",
+    version=animeX.__version__,
     author="Samuel Abada",
     author_email="abadasamuelosp@gmail.com",
     description="A simple, yet versatile package for downloading " \
@@ -20,6 +19,12 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/mastersam07/animeX-pack",
     packages=setuptools.find_packages(),
+    install_requires=[  # I get to this in a second
+        "wget==3.2",
+        "requests==2.21.0",
+        "beautifulsoup4==4.9.0",
+    ],
+    scripts=['animeX/animeX.py'],
     classifiers=[
         "Environment :: Console",
         "Intended Audience :: Developers",
@@ -34,4 +39,5 @@ setuptools.setup(
         "Topic :: Multimedia :: Video"
     ],
     python_requires='>=3.6',
+    keywords=["anime", "download", "video", ],
 )
