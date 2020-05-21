@@ -1,12 +1,17 @@
 import setuptools
 import animeX.utils as utils
+from os.path import dirname, join
 
 packages = [
     'animeX'
 ]
 
-with open("README.md", "r") as fh:
-    long_description = fh.read()
+
+def read_file(filename):
+    """Source the contents of a file"""
+    with open(join(dirname(__file__), filename)) as file:
+        return file.read()
+
 
 setuptools.setup(
     name="animeX",  # Replace with your own username
@@ -15,7 +20,7 @@ setuptools.setup(
     author_email="abadasamuelosp@gmail.com",
     description="A simple, yet versatile package for downloading " \
                 "anime.",
-    long_description=long_description,
+    long_description=read_file('README.md'),
     long_description_content_type="text/markdown",
     url="https://github.com/mastersam07/animeX-pack",
     packages=setuptools.find_packages(),
