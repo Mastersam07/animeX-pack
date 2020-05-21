@@ -1,5 +1,5 @@
 import setuptools
-import .animeX.utils as utils
+import animeX.utils as utils
 
 packages = [
     'animeX'

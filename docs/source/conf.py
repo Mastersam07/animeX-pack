@@ -5,9 +5,6 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
 import sphinx_rtd_theme
 
-from animeX.utils import get_version
-
-
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -28,7 +25,7 @@ copyright = '2020, Samuel Abada'
 author = 'Samuel Abada'
 
 # The full version, including alpha/beta/rc tags
-release = get_version()
+release = '0.1.9'
 
 
 # -- General configuration ---------------------------------------------------
