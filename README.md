@@ -8,8 +8,6 @@
 
 # animeX-pack
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7278736b380645a3ae47bc0e5953ee90)](https://app.codacy.com/manual/Mastersam07/animeX-pack?utm_source=github.com&utm_medium=referral&utm_content=Mastersam07/animeX-pack&utm_campaign=Badge_Grade_Dashboard)
-
 A lightweight Python library (and command-line utility) for downloading anime.
 
 ## Table of Contents
@@ -79,7 +77,7 @@ optional arguments:
 
 ## Development
 
-<a href="https://www.codacy.com/manual/hbmartin/pytube3?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=hbmartin/pytube3&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/53794f06983a46829620b3284c6a5596"/></a>
+<a href="https://app.codacy.com/manual/Mastersam07/animeX-pack?utm_source=github.com&utm_medium=referral&utm_content=Mastersam07/animeX-pack&utm_campaign=Badge_Grade_Dashboard"><img src="https://api.codacy.com/project/badge/Grade/7278736b380645a3ae47bc0e5953ee90"/></a>
 <a href="https://github.com/ambv/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" /></a>
 
 <p>Pull requests are welcome. For major changes and feature request, please consider going <a href="https://github.com/LordGhostX/animeX-v2">here</a> and open an issue first to discuss what you would like to change.</p>
