@@ -20,6 +20,7 @@ sys.path.insert(0, os.path.abspath('../../animeX/'))
 
 
 # -- Project information -----------------------------------------------------
+master_doc = 'index'
 
 project = 'animeX'
 copyright = '2020, Samuel Abada'
