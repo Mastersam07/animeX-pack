@@ -1,7 +1,3 @@
-import codecs
-import os
-from os import path
-
 import setuptools
 import animeX.utils as utils
 
@@ -10,24 +6,21 @@ packages = [
 ]
 
 
-here = os.path.abspath(os.path.dirname(__file__))
-
-# Get the long description from the README file
-with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
-    long_description = f.read()
-
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setuptools.setup(
-    name="animeX",  # Replace with your own username
+    name="animeX",
     version=utils.get_version(),
     author="Samuel Abada",
     author_email="abadasamuelosp@gmail.com",
     description="A simple, yet versatile package for downloading " \
                 "anime.",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/mastersam07/animeX-pack",
     packages=setuptools.find_packages(),
-    install_requires=[  # I get to this in a second
+    install_requires=[
         "wget==3.2",
         "requests==2.21.0",
         "beautifulsoup4==4.9.0",
