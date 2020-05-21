@@ -1,8 +1,9 @@
 <div align="center">
   <p align="center">
-	  <a href="https://pypi.org/project/animeX/"><img src="https://img.shields.io/pypi/v/animeX?color=blue"></a>
-	  <a href="https://pypi.python.org/pypi/animeX/"><img src="https://img.shields.io/pypi/pyversions/animeX.svg" /></a>
-	  <a href='https://animeX.readthedocs.io/en/latest/?badge=latest'><img src='https://readthedocs.org/projects/animeX/badge/?version=latest' alt='Documentation Status' /></a>
+	  <a href="https://pypi.org/project/animeX/"><img src="https://img.shields.io/pypi/v/animeX?color=blue" alt="version"></a>
+	  <a href="https://pypi.python.org/pypi/animeX/"><img src="https://img.shields.io/pypi/pyversions/animeX.svg"  alt="pyversions"/></a>
+	  <a href='https://animex-pack.readthedocs.io/en/latest/?badge=latest'><img src='https://readthedocs.org/projects/animex-pack/badge/?version=latest' alt='Documentation Status' />
+</a>
   </p>
 </div>
 
