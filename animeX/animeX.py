@@ -1,6 +1,6 @@
 import argparse
 
-import .utils as utils
+import animeX.utils as utils
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='anime downloader')
