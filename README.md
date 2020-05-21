@@ -7,6 +7,9 @@
 </div>
 
 # animeX-pack
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7278736b380645a3ae47bc0e5953ee90)](https://app.codacy.com/manual/Mastersam07/animeX-pack?utm_source=github.com&utm_medium=referral&utm_content=Mastersam07/animeX-pack&utm_campaign=Badge_Grade_Dashboard)
+
 A lightweight Python library (and command-line utility) for downloading anime.
 
 ## Table of Contents
