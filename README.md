@@ -34,7 +34,7 @@ $ pip install animeX
  $ py -m animeX --version
  $ py -m animeX --name AnimeName
 ```
-A GUI frontend for animeX is not yet available. at [YouTubeDownload](https://github.com/YouTubeDownload/YouTubeDownload)
+A GUI frontend for animeX is not yet available.
 A Windows executable for animeX is not yet available. at [AnimeX](https://github.com/LordGhostX/animeX-v2)
 
 ## Features
