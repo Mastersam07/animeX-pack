@@ -20,6 +20,7 @@ sys.path.insert(0, os.path.abspath('../../animeX/'))
 
 
 # -- Project information -----------------------------------------------------
+source_suffix = '.rst'
 master_doc = 'index'
 
 project = 'animeX'

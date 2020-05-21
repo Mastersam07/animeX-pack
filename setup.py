@@ -1,5 +1,6 @@
 import codecs
 import os
+from os import path
 
 import setuptools
 import animeX.utils as utils
@@ -11,8 +12,9 @@ packages = [
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
-    long_description = "\n" + fh.read()
+# Get the long description from the README file
+with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
+    long_description = f.read()
 
 
 setuptools.setup(
@@ -22,7 +24,6 @@ setuptools.setup(
     author_email="abadasamuelosp@gmail.com",
     description="A simple, yet versatile package for downloading " \
                 "anime.",
-    long_description_content_type="text/markdown",
     long_description=long_description,
     url="https://github.com/mastersam07/animeX-pack",
     packages=setuptools.find_packages(),
