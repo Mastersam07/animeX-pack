@@ -5,7 +5,6 @@ packages = [
     'animeX'
 ]
 
-
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
@@ -14,7 +13,7 @@ setuptools.setup(
     version=utils.get_version(),
     author="Samuel Abada",
     author_email="abadasamuelosp@gmail.com",
-    description="A simple, yet versatile package for downloading " \
+    description="A simple, yet versatile package for downloading "
                 "anime.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -42,5 +41,9 @@ setuptools.setup(
         "Topic :: Multimedia :: Video"
     ],
     python_requires='>=3.6',
+    project_urls={
+        "Bug Reports": "https://github.com/Mastersam07/animeX-pack/issues",
+        "Read the Docs": "https://animex-pack.readthedocs.io/en/latest/",
+    },
     keywords=["anime", "download", "video", ],
 )
