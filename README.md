@@ -57,6 +57,12 @@ This example will download boruto, its highest quality available.
  py -m animeX --name boruto
 ```
 
+For anime with space in their name e.g. Psycho Pass, you should put the name in quotes.
+
+```sh
+ py -m animeX --name "psycho pass"
+```
+
 ## Command-line interface
 
 animeX ships with a simple CLI interface for downloading anime.
