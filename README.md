@@ -2,6 +2,7 @@
   <p align="center">
 	  <a href="https://pypi.org/project/animeX/"><img src="https://img.shields.io/pypi/v/animeX?color=blue" alt="version"></a>
 	  <a href="https://pypi.python.org/pypi/animeX/"><img src="https://img.shields.io/pypi/pyversions/animeX.svg"  alt="pyversions"/></a>
+	  <a href="https://www.codefactor.io/repository/github/mastersam07/animex-pack/overview/master"><img src="https://www.codefactor.io/repository/github/mastersam07/animex-pack/badge/master" alt="CodeFactor" /></a>
 	  <a href='https://animex-pack.readthedocs.io/en/latest/?badge=latest'><img src='https://readthedocs.org/projects/animex-pack/badge/?version=latest' alt='Documentation Status' />
 </a>
   </p>
@@ -84,7 +85,7 @@ optional arguments:
 
 ## Development
 
-<a href="https://app.codacy.com/manual/Mastersam07/animeX-pack?utm_source=github.com&utm_medium=referral&utm_content=Mastersam07/animeX-pack&utm_campaign=Badge_Grade_Dashboard"><img src="https://api.codacy.com/project/badge/Grade/7278736b380645a3ae47bc0e5953ee90"/></a>
+<a href="https://www.codefactor.io/repository/github/mastersam07/animex-pack/overview/master"><img src="https://www.codefactor.io/repository/github/mastersam07/animex-pack/badge/master" alt="CodeFactor" /></a>
 <a href="https://github.com/ambv/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" /></a>
 
 <p>Pull requests are welcome. For major changes and feature request, please consider going <a href="https://github.com/LordGhostX/animeX-v2">here</a> and open an issue first to discuss what you would like to change.</p>
