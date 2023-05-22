@@ -21,7 +21,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         "wget==3.2",
-        "requests==2.21.0",
+        "requests==2.31.0",
         "beautifulsoup4==4.9.0",
     ],
     classifiers=[
